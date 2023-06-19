@@ -5,4 +5,5 @@ services:
     container_name: gpt-ai-assistant
     build: .
     restart: always
-    ports: 3000:3000
+    ports: 
+      -"3000:3000"
